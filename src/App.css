@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+  margin-top: 30px;
+}
+
+h1 {
+  color: #333;
+}
+
+.search {
+  margin-bottom: 20px;
+}
+
+.search input {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.recipe-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.recipe-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+}
+
+.recipe-card h2 {
+  color: #333;
+}
+
+.recipe-card p {
+  margin: 5px 0;
+}
